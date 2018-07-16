@@ -24,4 +24,4 @@ const BlogSchema = new Schema({
 })
 
 
-mongoose.model('Blog')
+mongoose.model('Blog' , BlogSchema)
