@@ -5,7 +5,7 @@ export const blogRouter = () => {
     const router = express.Router()
 
     router.get('/all', blog_con.getAllBolg)
-
+    router.post('/save', blog_con.saveBlog)
 
 
     return router
